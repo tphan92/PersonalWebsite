@@ -115,12 +115,19 @@ h5 {
 	clear: both;
 }
 
-h5.experience {
-	font-size: 18px;
+h5.time {
+	font-size: 14px;
 	clear: none;
 	padding: 0px;
 	font-style: italic;
-	font-weight: none;
+	font-weight: normal;
+}
+
+h5.experience {
+	font-size: 16px;
+	clear: both;
+	padding: 0px;
+	font-weight: bold;
 }
 
 .navbar-fixed-top  {
@@ -188,6 +195,7 @@ p {
 }
 
 .timelinepic {
+	padding-top: 20px;
 	width: 100%;
 	text-align: center;
 }
@@ -210,4 +218,5 @@ p {
 	width: 25%;
 	clear: both;
 	padding-right: 10px;
+	padding-bottom: 10px;
 }
